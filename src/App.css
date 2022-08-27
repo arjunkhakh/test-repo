@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+* {
+  font-family: 'Grandstander', cursive;
+  background-color: #cea6e3;
+  color: #9e51d5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+nav li a {
+  font-size: 130%;
+  color: #48A9A6;
+}
+
+nav li a:link {
+color: #48A9A6;
+text-decoration: none;
+}
+
+nav {
+width: 100%;
+margin-top: 2%;
+
+}
+
+nav li {
+list-style-type: none;  
+display: inline;
+float: none;
+margin-left: 15%;
+}
+
+nav.nav.nav-tabs.navbar-black.bg-370617 {
+border: none;
+}
+
+a.nav-link.active {
+background-color: #ffc6fe;
+border: #ffc6fe;
+}
+
+.nav-item {
+margin-bottom: 5%;
+border: none;
+}
+
+.game-container {
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  margin-left: 25%;
+}
+
+.sky {
+  background-color: aqua;
+  width: 60%;
+  height: 71%;
+  position: absolute;
+}
+
+.ground {
+  background-color: chocolate;
+  width: 60%;
+  height: 20%;
+  position: absolute;
+  top: 71%;
+}
+
+.bird {
+  background-color: purple;
+  position: absolute;
+  width: 4%;
+  height: 5%;
+}
+
+.obstacle {
+  background-color: green;
+  width: 5%;
+  height: 40%;
+  position: absolute;
+}
+
+#centered {
+  margin-top: 5%;
+  background-color: transparent;
+  font-size: 250%;
+  text-align: center;
+  font-variant-caps: small-caps;
+  font-weight: bolder;
+  width: 100%;
+}
+
+#centered2 {
+  margin-top: 5%;
+  background-color: transparent;
+  font-size: 40%;
+  text-align: center;
+  font-weight: bolder;
+  width: 100%;
+}
+
+img#image {
+  width: 70%;
+  height: 70%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
